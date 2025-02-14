@@ -1,0 +1,98 @@
+User Requirements Document
+
+Project Title: YouTube Analytics Dashboard for Top UK YouTubers 2024
+
+1. Project Overview
+
+The project aims to develop an interactive Power BI dashboard to analyze the performance of top YouTube channels in the UK. The dashboard will provide insights into subscriber growth, engagement rates, revenue estimation, and trending content to aid marketing research and business intelligence.
+
+2. Objectives
+
+Provide a comprehensive analysis of the top-performing UK YouTube channels.
+
+Enable users to filter and compare channels based on multiple performance metrics.
+
+Facilitate data-driven decision-making for marketers and businesses.
+
+Improve visibility into audience engagement and content trends.
+
+3. User Roles and Needs
+
+Primary Users:
+
+Marketing Analysts: Need insights into audience engagement, trends, and revenue potential.
+
+Business Executives: Require data-driven recommendations for influencer partnerships.
+
+Content Creators: Seek benchmarks for performance comparison.
+
+Data Analysts: Need structured datasets and visualizations for advanced analysis.
+
+4. Functional Requirements
+
+4.1 Data Ingestion
+
+Import YouTube data from Excel or SQL database.
+
+Ensure automatic data updates at scheduled intervals.
+
+Standardize data formats for consistency.
+
+4.2 Data Processing & Storage
+
+Clean and structure raw data to ensure accuracy.
+
+Store processed data in a relational database for efficient querying.
+
+Integrate Power BI with SQL queries for dynamic reports.
+
+4.3 Data Visualization
+
+Create interactive dashboards with:
+
+Subscriber Growth Trends
+
+Revenue Estimations
+
+Engagement Metrics (Likes, Comments, Shares)
+
+Top-Performing Video Analysis
+
+Category-wise Channel Rankings
+
+Implement drill-down features for deeper analysis.
+
+Include export options (CSV, PDF, Excel).
+
+4.4 User Interface (UI) & Accessibility
+
+Ensure a responsive and user-friendly interface.
+
+Provide filter options for different parameters (e.g., category, audience size, region).
+
+Enable integration with third-party tools (Google Sheets, APIs).
+
+5. Non-Functional Requirements
+
+Performance: Dashboard should load within 3 seconds for standard queries.
+
+Security: Implement role-based access control (RBAC) for data privacy.
+
+Scalability: System should handle increasing data volume without performance degradation.
+
+Reliability: Ensure system uptime of at least 99%.
+
+6. Constraints
+
+Data source limitations (YouTube API quota restrictions may apply).
+
+Compatibility with Power BI versions and SQL database configurations.
+
+7. Success Criteria
+
+Accurate and real-time insights into UK YouTube channel performance.
+
+Positive user feedback on usability and effectiveness.
+
+Improved decision-making for businesses and content creators using the dashboard.
+
